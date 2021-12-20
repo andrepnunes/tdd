@@ -1,2 +1,2 @@
 def min (a, b):
-	return -1
+	return a if a < b else b
