@@ -3,3 +3,6 @@ def min (a, b):
 
 def avg (int_lst):
 	return 1.0*sum(int_lst)/len(int_lst)
+
+def med (int_lst):
+	return -1
