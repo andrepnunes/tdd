@@ -17,10 +17,10 @@ class TestFuncs(unittest.TestCase):
         self.assertEqual(funcs.avg([ -1, -4, 2, 1]),-0.5)
 
     def test_med(self):
-        self.assertEqual(funcs.avg([ -1,  0]),-0.5)
-        self.assertEqual(funcs.avg([  0,  0, 0]),0)
-        self.assertEqual(funcs.avg([  1,  2, 3]),2)
-        self.assertEqual(funcs.avg([ -1, -4, 2, 1]), 0)
+        self.assertEqual(funcs.med([ -1,  0]),-0.5)
+        self.assertEqual(funcs.med([  0,  0, 0]),0)
+        self.assertEqual(funcs.med([  1,  2, 3]),2)
+        self.assertEqual(funcs.med([ -1, -4, 2, 1]), 0)
         
 if __name__ == '__main__':
     unittest.main()
