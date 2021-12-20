@@ -11,3 +11,6 @@ def med (int_lst):
 		return int_lst[l / 2]
 	else:
 		return (int_lst[l/2 - 1] + int_lst[l/2])/2. 
+
+def std (int_lst):
+	return -1
