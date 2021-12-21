@@ -21,6 +21,12 @@ class TestFuncs(unittest.TestCase):
         self.assertEqual(funcs.med([  0,  0, 0]),0)
         self.assertEqual(funcs.med([  1,  2, 3]),2)
         self.assertEqual(funcs.med([ -1, -4, 2, 1]), 0)
+
+    def test_std(self):
+        self.assertEqual(funcs.std([ -1,  0]),0.5)
+        self.assertEqual(funcs.std([  1,  3]),  1)
+        self.assertEqual(funcs.std([  0,  0, 0]),0)
+        self.assertEqual(funcs.std([  5,  5, 5, 5, 5, 5]),0)
         
 if __name__ == '__main__':
     unittest.main()
